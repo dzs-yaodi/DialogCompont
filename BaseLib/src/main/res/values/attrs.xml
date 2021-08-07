@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StarBar">
+    <!--   星星间距     -->
+    <attr name="starDistance" format="dimension" />
+    <!--   星星高度大小     -->
+    <attr name="starSize" format="dimension" />
+    <!--   starCount     -->
+    <attr name="starCount" format="integer" />
+    <!--  暗星星  -->
+    <attr name="starEmpty" format="integer" />
+    <!--   亮星星     -->
+    <attr name="starFill" format="integer" />
+
+    </declare-styleable>
+</resources>
