@@ -1,11 +1,11 @@
-package com.xw.dialogcompont.ui;
+package com.afflimitd.datingapp.ui;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.xw.dialogcompont.R;
-import com.xw.dialogcompont.fragment.MessageFragment;
-import com.xw.dialogcompont.fragment.UsersFragment;
+import com.afflimitd.datingapp.R;
+import com.afflimitd.datingapp.fragment.MessageFragment;
+import com.afflimitd.datingapp.fragment.UsersFragment;
 
 public class HomeActivity extends BaseActivity {
 
@@ -26,6 +26,7 @@ public class HomeActivity extends BaseActivity {
                 getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.frameLayout, new UsersFragment()).commit();
+                index = 0;
             }
         });
 
@@ -34,6 +35,7 @@ public class HomeActivity extends BaseActivity {
                 getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.frameLayout, new MessageFragment()).commit();
+                index = 1;
             }
         });
 

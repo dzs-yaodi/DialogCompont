@@ -1,4 +1,4 @@
-package com.xw.dialogcompont.ui;
+package com.afflimitd.datingapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,37 +8,38 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 
 import com.mature.baselib.utils.StatusBarHelper;
-import com.xw.dialogcompont.Contance;
-import com.xw.dialogcompont.R;
+import com.afflimitd.datingapp.Contance;
+import com.afflimitd.datingapp.R;
 
-public class AgeActivity extends BaseDialogActivity {
+public class GenderActivity extends BaseActivity {
 
-    private String[] ageItems = {"18-25","26-35","36-45","46-55","55-60","60+"};
-    private TextView tvAge;
+    private String[] ageItems = {"male","women"};
+    private TextView tvGender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_age);
+        setContentView(R.layout.activity_gender);
         StatusBarHelper.translucent(this);
-        tvAge = findViewById(R.id.tv_age);
 
-        tvAge.setOnClickListener(v -> {
+        tvGender = findViewById(R.id.tv_gender);
+        tvGender.setOnClickListener(v -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setItems(ageItems, (dialog, which) -> {
                 String items = ageItems[which];
-                tvAge.setText(items);
+                tvGender.setText(items);
                 dialog.dismiss();
             });
             builder.create().show();
         });
+
         findViewById(R.id.btn_next).setOnClickListener(v -> {
-            String age = tvAge.getText().toString().trim();
-            if (!TextUtils.isEmpty(age)) {
-                Intent intent = new Intent(this, GenderActivity.class);
+            String gender = tvGender.getText().toString();
+            if (!TextUtils.isEmpty(gender)) {
+                Intent intent = new Intent(this, EmailActivity.class);
                 startActivity(intent);
 
-                spUtils.putString(Contance.USER_AGE,age);
+                spUtils.putString(Contance.USER_GENDER,gender);
                 finish();
             }
         });

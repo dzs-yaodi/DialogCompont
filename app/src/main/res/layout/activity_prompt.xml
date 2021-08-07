@@ -44,7 +44,7 @@
             android:text="We need to ask you a few question to create your profile"/>
 
 
-        <Button
+        <TextView
             android:id="@+id/btn_continue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -3,6 +3,7 @@ package com.mature.baselib.http;
 import com.mature.baselib.bean.AppConfig;
 import com.mature.baselib.bean.BlogDetails;
 import com.mature.baselib.bean.Blogs;
+import com.mature.baselib.bean.Config;
 import com.mature.baselib.bean.HomeDetails;
 import com.mature.baselib.bean.HomeList;
 import com.mature.baselib.bean.HomeTitle;
@@ -80,4 +81,8 @@ public interface ApiService {
 
     @GET(ServerConfig.HOST + "agegap")
     Observable<List<SugarData>> getAgegapList();
+
+    /**************************注册页面***************************/
+    @GET(ServerConfig.HOST + "index")
+    Observable<Config> getConfig();
 }

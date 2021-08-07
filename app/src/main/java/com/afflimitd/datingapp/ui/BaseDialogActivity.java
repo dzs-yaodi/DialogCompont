@@ -1,4 +1,4 @@
-package com.xw.dialogcompont.ui;
+package com.afflimitd.datingapp.ui;
 
 import android.view.Gravity;
 import android.view.Window;

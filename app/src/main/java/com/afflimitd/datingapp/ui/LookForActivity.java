@@ -1,4 +1,4 @@
-package com.xw.dialogcompont.ui;
+package com.afflimitd.datingapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,10 +7,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.xw.dialogcompont.Contance;
-import com.xw.dialogcompont.R;
+import com.afflimitd.datingapp.Contance;
+import com.afflimitd.datingapp.R;
 
-public class LookForActivity extends BaseDialogActivity {
+public class LookForActivity extends BaseActivity {
 
     private String[] ageItems = {"men","woman"};
 

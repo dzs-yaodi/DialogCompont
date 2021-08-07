@@ -1,16 +1,17 @@
-package com.xw.dialogcompont.fragment;
+package com.afflimitd.datingapp.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.RecyclerView;
 
-import com.xw.dialogcompont.R;
+import com.afflimitd.datingapp.R;
 
 public class UsersFragment extends Fragment {
 
@@ -24,6 +25,15 @@ public class UsersFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        RecyclerView recycler = view.findViewById(R.id.recycler);
+        TextView tv_title = view.findViewById(R.id.tv_title);
+        TextView tv_content = view.findViewById(R.id.tv_content);
+        ProgressBar progressbar = view.findViewById(R.id.progressbar);
+
+        tv_title.setText("This users are online now:");
+
+        progressbar.postDelayed(() -> {
+            tv_content.setText("No users online");
+            progressbar.setVisibility(View.GONE);
+        },3000);
     }
 }

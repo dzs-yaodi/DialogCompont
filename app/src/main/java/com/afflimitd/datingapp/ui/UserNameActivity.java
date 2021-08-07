@@ -1,4 +1,4 @@
-package com.xw.dialogcompont.ui;
+package com.afflimitd.datingapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,10 +7,10 @@ import android.widget.EditText;
 import androidx.annotation.Nullable;
 
 import com.mature.baselib.utils.StatusBarHelper;
-import com.xw.dialogcompont.Contance;
-import com.xw.dialogcompont.R;
+import com.afflimitd.datingapp.Contance;
+import com.afflimitd.datingapp.R;
 
-public class UserNameActivity extends BaseDialogActivity {
+public class UserNameActivity extends BaseActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

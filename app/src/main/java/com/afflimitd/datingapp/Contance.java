@@ -1,4 +1,4 @@
-package com.xw.dialogcompont;
+package com.afflimitd.datingapp;
 
 public class Contance {
 
