@@ -1,4 +1,4 @@
-package com.afflimitd.datingapp.ui;
+package com.affcompany.datingapps.ui;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.just.agentweb.AgentWeb;
 import com.just.agentweb.DefaultWebClient;
 import com.just.agentweb.WebViewClient;
-import com.afflimitd.datingapp.R;
+import com.affcompany.datingapps.R;
 
 public class WebViewActivity extends BaseActivity {
 

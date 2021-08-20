@@ -1,11 +1,11 @@
-package com.afflimitd.datingapp.ui;
+package com.affcompany.datingapps.ui;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.afflimitd.datingapp.R;
-import com.afflimitd.datingapp.fragment.MessageFragment;
-import com.afflimitd.datingapp.fragment.UsersFragment;
+import com.affcompany.datingapps.R;
+import com.affcompany.datingapps.fragment.MessageFragment;
+import com.affcompany.datingapps.fragment.UsersFragment;
 
 public class HomeActivity extends BaseActivity {
 

@@ -1,4 +1,4 @@
-package com.afflimitd.datingapp.ui;
+package com.affcompany.datingapps.ui;
 
 import android.Manifest;
 import android.os.Bundle;

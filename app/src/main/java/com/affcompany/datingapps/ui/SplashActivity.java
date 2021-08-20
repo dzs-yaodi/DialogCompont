@@ -1,4 +1,4 @@
-package com.afflimitd.datingapp.ui;
+package com.affcompany.datingapps.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -13,7 +13,7 @@ import com.mature.baselib.http.Api;
 import com.mature.baselib.http.Disposables;
 import com.mature.baselib.utils.StatusBarHelper;
 import com.mature.baselib.view.CountDownTextView;
-import com.afflimitd.datingapp.R;
+import com.affcompany.datingapps.R;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
@@ -63,7 +63,6 @@ public class SplashActivity extends AppCompatActivity {
     private void jump() {
         if (config == null)return;
         countDownTextView.setVisibility(View.GONE);
-
         if (config.bug == 1) {
             Intent intent = new Intent(this,UserNameActivity.class);
             startActivity(intent);

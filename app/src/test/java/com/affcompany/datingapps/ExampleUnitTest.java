@@ -1,4 +1,4 @@
-package com.afflimitd.datingapp;
+package com.affcompany.datingapps;
 
 import org.junit.Test;
 
