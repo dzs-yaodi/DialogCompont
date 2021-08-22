@@ -7,36 +7,20 @@
     tools:context=".ui.HomeActivity">
 
     <FrameLayout
+        android:id="@+id/frame_contaner"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="#000000">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@mipmap/logo"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="15dp"
-            />
+        android:layout_height="69dp"
+        android:background="#E14C1D">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:textColor="#FFFFFF"
-            android:layout_gravity="center"
+            android:layout_gravity="bottom|center_horizontal"
             android:textStyle="bold"
             android:textSize="20dp"
+            android:gravity="center_vertical"
             android:text="Users onLine"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|end"
-            android:text="@string/app_dialog_logo_name"
-            android:textColor="#FFFFFF"
-            android:layout_marginEnd="15dp"
-            android:textSize="16dp"
-            />
 
     </FrameLayout>
 
@@ -58,7 +42,7 @@
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:text="Users"
-            android:background="#E36690"
+            android:background="#C5C3C3"
             android:textColor="#fff"
             android:gravity="center"
             android:textSize="20dp"
@@ -74,7 +58,7 @@
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:text="Message"
-            android:background="#000000"
+            android:background="#CDBE36"
             android:textColor="#fff"
             android:gravity="center"
             android:textSize="20dp"

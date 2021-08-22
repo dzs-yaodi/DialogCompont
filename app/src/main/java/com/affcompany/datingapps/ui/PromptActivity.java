@@ -31,7 +31,7 @@ public class PromptActivity extends BaseActivity {
 
         findViewById(R.id.btn_continue).setOnClickListener(v -> {
             if (!TextUtils.isEmpty(name)) {
-                startActivity(new Intent(this, AgeActivity.class));
+                startActivity(new Intent(this, RegisterNewActivity.class));
             } else {
                 startActivity(new Intent(this, HomeActivity.class));
             }

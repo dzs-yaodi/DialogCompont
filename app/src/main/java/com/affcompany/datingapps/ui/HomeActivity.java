@@ -6,6 +6,7 @@ import android.widget.TextView;
 import com.affcompany.datingapps.R;
 import com.affcompany.datingapps.fragment.MessageFragment;
 import com.affcompany.datingapps.fragment.UsersFragment;
+import com.mature.baselib.utils.UITools;
 
 public class HomeActivity extends BaseActivity {
 
@@ -17,6 +18,7 @@ public class HomeActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        UITools.initTitleColorBar(this,findViewById(R.id.frame_contaner),"#E14C1D");
 
         tvUser = findViewById(R.id.tv_user);
         tvMessage = findViewById(R.id.tv_message);

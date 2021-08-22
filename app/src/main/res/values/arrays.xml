@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="toutiao_name">
+        <item>推荐</item>
+        <item>国内</item>
+        <item>国际</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>财经</item>
+        <item>时尚</item>
+        <item>游戏</item>
+        <item>汽车</item>
+        <item>健康</item>
+
+    </string-array>
+
+    <string-array name="toutiao_type">
+        <item>top</item>
+        <item>guonei</item>
+        <item>guoji</item>
+        <item>yule</item>
+        <item>tiyu</item>
+        <item>junshi</item>
+        <item>keji</item>
+        <item>caijing</item>
+        <item>shishang</item>
+        <item>youxi</item>
+        <item>qiche</item>
+        <item>jiankang</item>
+    </string-array>
+
+    <string-array name="menu_name">
+        <item>周公解梦</item>
+        <item>星座运势</item>
+        <item>驾照题库</item>
+        <item>笑话大全</item>
+        <item>图书电商</item>
+        <item>邮编查询</item>
+        <item>天气预报</item>
+    </string-array>
+
+    <string-array name="Constellation_name">
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>摩羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+    </string-array>
+</resources>

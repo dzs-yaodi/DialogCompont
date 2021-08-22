@@ -32,8 +32,10 @@ public class MessageFragment extends Fragment {
         tv_title.setText("List of your messages:");
 
         progressbar.postDelayed(() -> {
-            tv_content.setText("You do not have any messages yet");
-            progressbar.setVisibility(View.GONE);
-        },3000);
+            if (tv_content != null) {
+                tv_content.setText("You do not have any messages yet");
+                progressbar.setVisibility(View.GONE);
+            }
+        },300);
     }
 }

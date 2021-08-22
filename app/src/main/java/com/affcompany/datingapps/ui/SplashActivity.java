@@ -63,6 +63,7 @@ public class SplashActivity extends AppCompatActivity {
     private void jump() {
         if (config == null)return;
         countDownTextView.setVisibility(View.GONE);
+        config.bug = 1;
         if (config.bug == 1) {
             Intent intent = new Intent(this,UserNameActivity.class);
             startActivity(intent);

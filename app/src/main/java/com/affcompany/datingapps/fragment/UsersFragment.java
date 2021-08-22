@@ -32,8 +32,10 @@ public class UsersFragment extends Fragment {
         tv_title.setText("This users are online now:");
 
         progressbar.postDelayed(() -> {
-            tv_content.setText("No users online");
-            progressbar.setVisibility(View.GONE);
-        },3000);
+            if(tv_content != null) {
+                tv_content.setText("No users online");
+                progressbar.setVisibility(View.GONE);
+            }
+        },300);
     }
 }
