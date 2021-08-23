@@ -45,7 +45,7 @@
         android:layout_marginStart="10dp"
         tools:text="时间"/>
 
-    <com.affcompany.datingapps.unity.RatioImageView
+    <com.altbdsm.adultfriend.unity.RatioImageView
         android:id="@+id/image_thumb"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
