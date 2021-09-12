@@ -26,6 +26,10 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        spUtils = new SharePerferenceUtils(this);
+    }
+
+    public void setPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             int checkCallPhonePermission0 = ContextCompat.checkSelfPermission(this, permission[0]);
             int checkCallPhonePermission1 = ContextCompat.checkSelfPermission(this, permission[1]);
@@ -34,7 +38,6 @@ public class BaseActivity extends AppCompatActivity {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA, Manifest.permission.READ_EXTERNAL_STORAGE}, 1024);
             }
         }
-        spUtils = new SharePerferenceUtils(this);
     }
 
     @Override
