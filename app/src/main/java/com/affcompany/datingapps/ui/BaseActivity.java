@@ -25,6 +25,10 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        spUtils = new SharePerferenceUtils(this);
+    }
+
+    public void setPermission() {
         rxPermissions = new RxPermissions(this);
         Disposable d = rxPermissions.request(permission[0],permission[1],permission[2])
                 .subscribe(granted -> {
@@ -32,6 +36,5 @@ public class BaseActivity extends AppCompatActivity {
                         Toast.makeText(this, "Please enable the necessary permissions", Toast.LENGTH_SHORT).show();
                     }
                 });
-        spUtils = new SharePerferenceUtils(this);
     }
 }
