@@ -1,4 +1,4 @@
-package com.affcompany.datingapps.ui;
+package com.bdcompany.bdapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.affcompany.datingapps.Contance;
-import com.affcompany.datingapps.R;
+import com.bdcompany.bdapp.Contance;
+import com.bdcompany.bdapp.R;
 
 public class LookForActivity extends BaseActivity {
 

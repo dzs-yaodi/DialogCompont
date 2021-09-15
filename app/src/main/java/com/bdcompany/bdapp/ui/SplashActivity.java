@@ -1,4 +1,4 @@
-package com.affcompany.datingapps.ui;
+package com.bdcompany.bdapp.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -13,7 +13,7 @@ import com.mature.baselib.http.Api;
 import com.mature.baselib.http.Disposables;
 import com.mature.baselib.utils.StatusBarHelper;
 import com.mature.baselib.view.CountDownTextView;
-import com.affcompany.datingapps.R;
+import com.bdcompany.bdapp.R;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;

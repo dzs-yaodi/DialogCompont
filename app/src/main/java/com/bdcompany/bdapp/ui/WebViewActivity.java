@@ -1,4 +1,4 @@
-package com.affcompany.datingapps.ui;
+package com.bdcompany.bdapp.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,12 +15,12 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
-import com.affcompany.datingapps.MediaUtility;
-import com.affcompany.datingapps.OpenFileWebChromeClient;
+import com.bdcompany.bdapp.MediaUtility;
+import com.bdcompany.bdapp.OpenFileWebChromeClient;
 import com.just.agentweb.AgentWeb;
 import com.just.agentweb.DefaultWebClient;
 import com.just.agentweb.WebViewClient;
-import com.affcompany.datingapps.R;
+import com.bdcompany.bdapp.R;
 
 import java.io.File;
 

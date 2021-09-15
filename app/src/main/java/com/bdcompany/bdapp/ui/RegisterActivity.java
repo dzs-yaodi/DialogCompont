@@ -1,11 +1,11 @@
-package com.affcompany.datingapps.ui;
+package com.bdcompany.bdapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ProgressBar;
 
 import com.mature.baselib.utils.StatusBarHelper;
-import com.affcompany.datingapps.R;
+import com.bdcompany.bdapp.R;
 
 public class RegisterActivity extends BaseActivity {
 

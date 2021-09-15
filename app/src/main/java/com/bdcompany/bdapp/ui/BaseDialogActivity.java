@@ -1,4 +1,4 @@
-package com.affcompany.datingapps.ui;
+package com.bdcompany.bdapp.ui;
 
 import android.view.Gravity;
 import android.view.Window;

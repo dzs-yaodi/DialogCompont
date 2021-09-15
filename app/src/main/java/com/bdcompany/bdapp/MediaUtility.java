@@ -1,4 +1,4 @@
-package com.affcompany.datingapps;
+package com.bdcompany.bdapp;
 
 import android.annotation.TargetApi;
 import android.content.ContentUris;

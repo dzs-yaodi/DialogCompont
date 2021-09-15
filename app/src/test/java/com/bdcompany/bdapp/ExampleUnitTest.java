@@ -1,4 +1,4 @@
-package com.affcompany.datingapps;
+package com.bdcompany.bdapp;
 
 import org.junit.Test;
 

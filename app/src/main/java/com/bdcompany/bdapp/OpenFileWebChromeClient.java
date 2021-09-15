@@ -1,4 +1,4 @@
-package com.affcompany.datingapps;
+package com.bdcompany.bdapp;
 
 import android.app.Activity;
 import android.content.Intent;
